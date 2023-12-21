@@ -174,18 +174,6 @@
 
     <dependency>
       <groupId>org.apache.tiles</groupId>
-      <artifactId>tiles-request-portlet</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.tiles</groupId>
-      <artifactId>tiles-request-portlet-wildcard</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.tiles</groupId>
       <artifactId>tiles-request-servlet</artifactId>
       <version>${project.version}</version>
     </dependency>

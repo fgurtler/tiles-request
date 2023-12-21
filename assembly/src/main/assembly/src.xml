@@ -71,22 +71,6 @@
             </includes>
         </fileSet>
         <fileSet>
-            <directory>../tiles-request-portlet</directory>
-            <outputDirectory>src/tiles-request-portlet</outputDirectory>
-            <includes>
-                <include>pom.xml</include>
-                <include>src/</include>
-            </includes>
-        </fileSet>
-        <fileSet>
-            <directory>../tiles-request-portlet-wildcard</directory>
-            <outputDirectory>src/tiles-request-portlet-wildcard</outputDirectory>
-            <includes>
-                <include>pom.xml</include>
-                <include>src/</include>
-            </includes>
-        </fileSet>
-        <fileSet>
             <directory>../tiles-request-servlet</directory>
             <outputDirectory>src/tiles-request-servlet</outputDirectory>
             <includes>

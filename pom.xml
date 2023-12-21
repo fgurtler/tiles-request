@@ -43,8 +43,6 @@ under the License.
         <module>tiles-request-api</module>
         <module>tiles-request-servlet</module>
         <module>tiles-request-servlet-wildcard</module>
-        <module>tiles-request-portlet</module>
-        <module>tiles-request-portlet-wildcard</module>
         <module>tiles-request-jsp</module>
         <module>tiles-request-freemarker</module>
         <module>tiles-request-velocity</module>
@@ -152,11 +150,6 @@ under the License.
             </dependency>
             <dependency>
                 <groupId>org.apache.tiles</groupId>
-                <artifactId>tiles-request-portlet</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tiles</groupId>
                 <artifactId>tiles-autotag-core-runtime</artifactId>
                 <version>1.1.0</version>
                 <optional>true</optional>
@@ -183,12 +176,6 @@ under the License.
                     <artifactId>servlet-api</artifactId>
                     <version>2.5</version>
                     <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>javax.portlet</groupId>
-                <artifactId>portlet-api</artifactId>
-                <version>2.0</version>
-                <scope>provided</scope>
             </dependency>
             <dependency>
                     <groupId>org.apache.shale</groupId>
