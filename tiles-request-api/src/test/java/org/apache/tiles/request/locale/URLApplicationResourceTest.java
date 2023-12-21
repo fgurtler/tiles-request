@@ -232,7 +232,8 @@ public class URLApplicationResourceTest {
         resource.getInputStream();
     }
 
-    @Test
+    //@Test
+    // See https://bugs.openjdk.org/browse/JDK-8210522
     public void testAdditionalRemoteProtocolViaSystemProperties() throws Exception {
         setProperty(REMOTE_PROTOCOLS_PROPERTY, "test1;test2");
         Field f = URLApplicationResource.class.getDeclaredField("REMOTE_PROTOCOLS");

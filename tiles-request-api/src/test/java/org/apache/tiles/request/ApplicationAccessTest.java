@@ -40,7 +40,7 @@ public class ApplicationAccessTest {
     @SuppressWarnings("unchecked")
     @Test
     public void testRegister() {
-        ApplicationContext applicationContext = createMock(ApplicationContext.class);
+        ApplicationContext applicationContext = mock(ApplicationContext.class);
         Map<String, Object> applicationScope = createMock(Map.class);
 
         expect(applicationContext.getApplicationScope()).andReturn(applicationScope);

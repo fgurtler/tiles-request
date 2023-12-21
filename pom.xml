@@ -175,13 +175,7 @@ under the License.
             <dependency>
                 <groupId>org.easymock</groupId>
                 <artifactId>easymock</artifactId>
-                <version>3.0</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.easymock</groupId>
-                <artifactId>easymockclassextension</artifactId>
-                <version>3.0</version>
+                <version>5.2.0</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
