@@ -178,12 +178,6 @@
       <version>${project.version}</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.apache.tiles</groupId>
-      <artifactId>tiles-request-velocity</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-
     <!-- Optional dependencies that will be redistributed -->
     <dependency>
       <groupId>org.slf4j</groupId>
